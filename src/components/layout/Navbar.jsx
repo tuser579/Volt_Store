@@ -68,12 +68,13 @@ export default function Navbar() {
           {/* ── Logo ── */}
           <Link href="/" className="flex items-center gap-2 shrink-0">
             <div
-              className="w-8 h-8 rounded-lg flex items-center justify-center"
+              className="w-6 sm:w-8 h-6 sm:h-8 rounded-lg flex items-center justify-center"
               style={{ background: "linear-gradient(135deg, var(--primary), var(--accent))" }}
             >
-              <Zap className="w-4 h-4 text-white" />
+              <Zap className="w-3 h-3 text-white" />
             </div>
-            <span style={{ fontFamily: "var(--font-display)", fontWeight: 800, fontSize: "1.2rem" }}>
+            <span className="mr-2 font-semibold sm:font-extrabold sm:text-[1.2rem]"
+              style={{ fontFamily: "var(--font-display)" }}>
               <span style={{ color: "var(--fg)" }}>VOLT</span>
               <span className="text-gradient"> STORE</span>
             </span>
