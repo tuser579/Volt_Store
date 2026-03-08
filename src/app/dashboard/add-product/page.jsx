@@ -89,15 +89,15 @@ export default function AddProductPage() {
 
   return (
     <div className="page-enter min-h-screen" style={{ paddingTop: "5rem" }}>
-      <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
+      <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-15">
 
         {/* Header */}
         <div className="mb-10 flex flex-col items-center">
-          <h1 className="text-3xl sm:text-4xl font-extrabold mb-2"
+          <h1 className="text-center mx-auto text-3xl sm:text-4xl font-extrabold mb-2"
             style={{ fontFamily: "var(--font-display)", color: "var(--fg)" }}>
             Add New Product
           </h1>
-          <p className="text-sm" style={{ color: "var(--fg-muted)" }}>
+          <p className="text-center text-sm" style={{ color: "var(--fg-muted)" }}>
             Logged in as <span style={{ color: "var(--accent)" }}>{session?.user?.email}</span>
           </p>
         </div>

@@ -228,11 +228,11 @@ export default function ManageProductsPage() {
         <div className="mb-6 sm:mb-8 lg:mb-10">
           <div className="flex flex-col sm:flex-row sm:justify-between items-center gap-3 sm:gap-4">
             <div>
-              <h1 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold mb-1 sm:mb-2"
+              <h1 className="text-center sm:text-start text-3xl sm:text-4xl lg:text-5xl font-extrabold mb-1 sm:mb-2"
                 style={{ fontFamily: "var(--font-display)", color: "var(--fg)" }}>
                 Manage Products
               </h1>
-              <p className="text-sm sm:text-base" style={{ color: "var(--fg-muted)" }}>
+              <p className="text-center sm:text-start text-sm sm:text-base" style={{ color: "var(--fg-muted)" }}>
                 {total} products in your store ·{" "}
                 <span style={{ color: "var(--accent)" }}>
                   <span className="hidden sm:inline">{session?.user?.email}</span>
